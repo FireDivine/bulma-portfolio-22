@@ -1,40 +1,55 @@
 @charset "utf-8";
-// @import "../../node_modules/bulma/bulma.sass";
-@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&family=Red+Hat+Display:ital,wght@1,300;1,400&family=Rock+Salt&display=swap');
+  $pink:	hsl(338, 63%, 64%);
+  $purple:	#8d8daa;
+  $light-pink:	hsl(11, 84%, 85%);
+  $blue:	hsl(208, 44%, 42%);
+  $primary: $pink;
+  $link:#D61C4E;
+  $info:#1F4690;
+  $success:#7DCE13;
+  $dark:$purple;
+  $light: white;
+  $warning:#FBCB0A;
+  $danger:#EB1D36;
 
 
+  //TABS
+  $tabs-boxed-link-hover-background-color: $pink;
+  $tabs-boxed-link-hover-color: $light;
+  $link-active:$light;
 
+  //NAVS
+  $navbar-item-hover-background-color: $pink;
+  $navbar-item-hover-color:black;
 
+  // TITLES
+  $subtitle-color:$light;
+  $title-color:$pink;
+  $text:$light;
+  $strong-color:$pink;
 
-// Set your brand colors
-$purple: #8A4D76;
-$pink: #FA7C91;
-$brown: #757763;
-$beige-light: #D0D1CD;
-$beige-lighter: #EFF0EB;
+  // BUTTONS
+  $button-background-color:$pink;
+ 
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300;600&family=Permanent+Marker&family=Red+Hat+Display:ital,wght@1,300;1,400&display=swap');
 
-// Update Bulma's global variables
-$family-sans-serif: 'Manrope', sans-serif;
-$grey-dark: $brown;
-$grey-light: $beige-light;
-$primary: $purple;
-$link: $pink;
-$widescreen-enabled: false;
-$fullhd-enabled: false;
+*{
+  font-family: 'Manrope', sans-serif;
+  background-color: $purple ;
 
-// Update some of Bulma's component variables
-$body-background-color: $beige-lighter;
-$control-border-width: 2px;
-$input-border-color: transparent;
-$input-shadow: none;
+}
+img{
+  height:fit-content;
+  width: 250px !important;
+}
 
-// Import only what you need from Bulma
-@import "../../node_modules/bulma/sass/utilities/_all.sass";
-@import "../../node_modules/bulma/sass/base/_all.sass";
-@import "../../node_modules/bulma/sass/elements/button.sass";
-@import "../../node_modules/bulma/sass/elements/container.sass";
-@import "../../node_modules/bulma/sass/elements/title.sass";
-@import "../../node_modules/bulma/sass/form/_all.sass";
-@import "../../node_modules/bulma/sass/components/navbar.sass";
-@import "../../node_modules/bulma/sass/layout/hero.sass";
-@import "../../node_modules/bulma/sass/layout/section.sass";
+.title{
+  font-family: 'Red Hat Display', sans-serif;
+}
+
+.avatar{
+  border: solid 5px #f56d91;  padding: 5px;
+  margin: 2rem 0;
+  border-radius: 50%;
+}
+@import "../../node_modules/bulma/bulma.sass";

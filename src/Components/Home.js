@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../sass/home.module.scss'
 
 function Home() {
   return (
@@ -10,7 +9,7 @@ function Home() {
             id="lola"
             src="images/discord_me.jpg"
             alt="avatar of jillian"
-            className={styles.avatar}
+            className="avatar "
           />
 
           <h1 className="title is-1">Jillian Eccles</h1>

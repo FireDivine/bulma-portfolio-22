@@ -2,27 +2,27 @@ import React from 'react'
 
 function Experience() {
   return (
-    <section className="section is-medium">
+    <section className="section">
       <h1 className="title is-1 is-uppercase">Experience</h1>
       <div className="p-2">
         <h2 className="title is-3">
           Dev Academy Aotearoa, Remote — <i> Student Full Stack Developer</i>
         </h2>
         <h6 className="title is-5">April 2022 - July 2022</h6>
-        <p className="subtitle is-6">
+        <p className="content">
           This was a 15 week full immersion software development bootcamp that
           mimics a real-life development team as closely as possible. This was
           an amazing experience where I redeveloped old coding skills that I had
           lost over time and developed more social skills and new coding skills.
           I grew more confident in my talking and my coding.
         </p>
-        <p className="subtitle is-6">
+        <p className="content">
           Main Languages used:{' '}
           <strong>
             Knex, React.js, Handlebars, Express, JS, Jest, HTML, CSS
           </strong>
         </p>
-        <p className="subtitle is-6">
+        <p className="content">
           Final Project - <i>The Book Exchange </i>- this is a website that the
           user can sign in/out and exchange books with other users based on how
           many tokens they have. They can then gain more tokens by adding books.
@@ -30,7 +30,7 @@ function Experience() {
           multer, so that the image then saves into our database and chosen
           folder to be viewable through-out the website.
         </p>
-        <p>
+        <p className="content">
           <a
             className="is-underlined"
             href=" https://the-book-exchange-mako.herokuapp.com/"

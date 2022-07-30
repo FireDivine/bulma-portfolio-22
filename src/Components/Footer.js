@@ -25,7 +25,6 @@ function Footer() {
           </ul>
         </div>
       </nav>
-      <div className="content has-text-centered">Jellybean 2022</div>
     </div>
   )
 }

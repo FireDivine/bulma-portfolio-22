@@ -9,7 +9,7 @@ import Home from './Components/Home'
 
 function App() {
   return (
-    <section className="hero is-success is-fullheight">
+    <section className="hero is-fullheight">
       <div className="hero-head">
         <Header />
       </div>
