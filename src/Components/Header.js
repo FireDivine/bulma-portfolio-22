@@ -1,12 +1,26 @@
 import React from 'react'
 import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa'
 function Header() {
+  const toggleBurger = () => {
+    let burgerIcon = document.getElementsByClassName('navbar-burger')[0]
+    let dropMenu = document.getElementById('navbarMenuHeroC')
+    burgerIcon.classList.toggle('is-active')
+    dropMenu.classList.toggle('is-active')
+  }
+
   return (
     <header className="navbar">
       <div className="container">
         <div className="navbar-brand">
-          <div className="navbar-item">JellyBean</div>
-          <span className="navbar-burger" data-target="navbarMenuHeroC">
+          <div className="navbar-item">
+            <a href="/"> JellyBean</a>
+          </div>
+          <span
+            className="navbar-burger"
+            data-target="navbarMenuHeroC"
+            onClick={toggleBurger}
+            id="burger"
+          >
             <span></span>
             <span></span>
             <span></span>
