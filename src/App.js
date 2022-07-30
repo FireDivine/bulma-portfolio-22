@@ -6,6 +6,7 @@ import Experience from './Components/Experience'
 import Footer from './Components/Footer'
 import Header from './Components/Header'
 import Home from './Components/Home'
+import Projects from './Components/Projects'
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
           <Route path="/edu" element={<Education />}></Route>
           <Route path="/contact" element={<Contact />}></Route>
           <Route path="/about-me" element={<About />}></Route>
+          <Route path="/projects" element={<Projects />}></Route>
         </Routes>
       </div>
       <div className="hero-foot">

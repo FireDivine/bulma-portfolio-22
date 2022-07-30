@@ -1,7 +1,6 @@
-import React, { useState } from 'react'
+import React from 'react'
 
 function Footer() {
-  const [active, setActive] = useState('is-active')
   return (
     <div>
       <nav className="tabs is-boxed is-fullwidth">

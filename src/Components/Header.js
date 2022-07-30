@@ -34,14 +34,17 @@ function Header() {
           <a className="navbar-item " href="/">
             Home
           </a>
-          <a className="navbar-item" href="https://github.com/FireDivine">
-            <FaGithub />
+          <a
+            className="navbar-item is-medium"
+            href="https://github.com/FireDivine"
+          >
+            <FaGithub className="m-2 icon" />
           </a>
           <a
             className="navbar-item"
             href="https://www.linkedin.com/in/jillian-eccles-bb9506a6/"
           >
-            <FaLinkedin />
+            <FaLinkedin className=" m-2 icon" />
           </a>
 
           <a
@@ -52,7 +55,7 @@ function Header() {
             // }}
             href="/cv"
           >
-            <FaDownload />
+            <FaDownload className="icon m-2 is-small" />
             CV
           </a>
         </div>
