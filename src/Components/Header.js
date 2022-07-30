@@ -30,8 +30,8 @@ function Header() {
         </span>
       </div>
       <div id="navbarMenuHeroC" className="navbar-menu">
-        <div className="navbar-end">
-          <a className="navbar-item " href="/">
+        <div className="navbar-end content is-medium">
+          <a className="navbar-item  " href="/">
             Home
           </a>
           <a

@@ -3,7 +3,7 @@ import React from 'react'
 function Footer() {
   return (
     <div>
-      <nav className="tabs is-boxed is-fullwidth">
+      <nav className="tabs is-large is-boxed is-fullwidth">
         <div className="container">
           <ul>
             <li>
