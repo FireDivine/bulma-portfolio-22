@@ -30,12 +30,12 @@ function Experience() {
           multer, so that the image then saves into our database and chosen
           folder to be viewable through-out the website.
         </p>
-        <p className="content">
+        <p>
           <a
-            className="is-underlined"
+            className="tag is-primary content is-medium "
             href=" https://the-book-exchange-mako.herokuapp.com/"
           >
-            https://the-book-exchange-mako.herokuapp.com/
+            The Book Exchange WebSite
           </a>
         </p>
       </div>

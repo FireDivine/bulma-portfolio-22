@@ -28,12 +28,12 @@ function Education() {
         <p className="content">
           Languages used: <strong>SQL,PHP,HTML,CSS.</strong>
         </p>
-        <p className="content">
+        <p>
           <a
-            className="is-underlined"
+            className="tag is-primary content is-medium "
             href="https://github.com/ashton-lye/straightupit"
           >
-            https://github.com/ashton-lye/straightupit
+            View CodeBase
           </a>
         </p>
       </div>
