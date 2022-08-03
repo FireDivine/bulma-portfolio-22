@@ -1,6 +1,8 @@
 import React from 'react'
+import { useNavigate } from 'react-router-dom'
 import { FaGithub, FaLinkedin, FaDownload } from 'react-icons/fa'
 function Header() {
+  const nagivate = useNavigate()
   const toggleBurger = () => {
     let burgerIcon = document.getElementsByClassName('navbar-burger')[0]
     let dropMenu = document.getElementById('navbarMenuHeroC')
@@ -47,17 +49,23 @@ function Header() {
             <FaLinkedin className=" m-2 icon" />
           </a>
 
-          <a
+          <span
             className="navbar-item p-2 "
             // href={() => {
             //   window.open('doc/CV_july_2202 (6)', '_blank', 'fullscreen=yes')
             //   return false
             // }}
-            href="/cv"
+            //href="/cv"
+            onClick={() => {
+              alert(
+                'Sorry, This Feature is not available yet. Please contact me for a copy'
+              )
+              nagivate('/contact')
+            }}
           >
             <FaDownload className="icon m-2 is-small" />
             CV
-          </a>
+          </span>
         </div>
       </div>
     </header>

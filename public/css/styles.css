@@ -7,8 +7,9 @@ img {
   height: fit-content;
   width: 250px !important; }
 
-.title {
-  font-family: 'Red Hat Display', sans-serif; }
+h1 {
+  font-family: 'Red Hat Display', sans-serif;
+  color: #f56d91 !important; }
 
 .avatar {
   border: solid 5px #f56d91;
@@ -370,7 +371,7 @@ span {
   font-weight: inherit; }
 
 strong {
-  color: #dd6994;
+  color: white;
   font-weight: 700; }
 
 fieldset {
@@ -2128,7 +2129,7 @@ a.tag:hover {
     vertical-align: middle; }
 
 .title {
-  color: #dd6994;
+  color: #363636;
   font-size: 2rem;
   font-weight: 600;
   line-height: 1.125; }

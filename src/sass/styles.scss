@@ -24,9 +24,9 @@
 
   // TITLES
   $subtitle-color:$light;
-  $title-color:$pink;
+  //$title-color:$pink;
   $text:$light;
-  $strong-color:$pink;
+  $strong-color:$light;
 
   // BUTTONS
   $button-background-color:$pink;
@@ -38,6 +38,7 @@
 *{
   font-family: 'Manrope', sans-serif;
   background-color: $purple ;
+  
 
 }
 img{
@@ -45,8 +46,9 @@ img{
   width: 250px !important;
 }
 
-.title{
+h1{
   font-family: 'Red Hat Display', sans-serif;
+color: #f56d91 !important;
 }
 
 .avatar{
