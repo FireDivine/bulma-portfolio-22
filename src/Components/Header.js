@@ -51,17 +51,19 @@ function Header() {
 
           <span
             className="navbar-item p-2 "
-            // href={() => {
-            //   window.open('doc/CV_july_2202 (6)', '_blank', 'fullscreen=yes')
-            //   return false
-            // }}
-            //href="/cv"
             onClick={() => {
-              alert(
-                'Sorry, This Feature is not available yet. Please contact me for a copy'
+              window.open(
+                'doc/CV_july_2022.pdf'
+                // '_blank',
+                // 'fullscreen=yes'
               )
-              nagivate('/contact')
+              //   return false
             }}
+            // href="/cv"
+            //  onClick={() => {
+            // ;
+            //nagivate('/contact')
+            //  }}
           >
             <FaDownload className="icon m-2 is-small" />
             CV
