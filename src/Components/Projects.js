@@ -29,6 +29,14 @@ function Projects() {
           link=""
           codeLink="https://github.com/FireDivine/Two-Crafty-Chicks_v1"
         />
+
+        <Card
+          title="Dashboard"
+          languages="MUI, React, nivo, full Calender"
+          content=" Code along with youtube video - React Admin Dashboard by EdRoh"
+          link="https://firedivine.github.io/PraticeDashboard/"
+          codeLink="https://github.com/FireDivine/PraticeDashboard"
+        />
       </div>
       <h2 className="title is-4">Dev Academy Projects</h2>
       <div className="tile is-ancestor">
