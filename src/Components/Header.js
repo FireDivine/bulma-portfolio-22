@@ -53,7 +53,7 @@ function Header() {
             className="navbar-item p-2 "
             onClick={() => {
               window.open(
-                'doc/CV_july_2022.pdf'
+                'doc/CV2023.pdf'
                 // '_blank',
                 // 'fullscreen=yes'
               )

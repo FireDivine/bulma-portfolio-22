@@ -39,6 +39,10 @@ function Projects() {
         />
       </div>
       <h2 className="title is-4">Dev Academy Projects</h2>
+      <h4 className="subtitle">
+        Note: these were uploaded prior to herokus free tier change and so may
+        not work
+      </h4>
       <div className="tile is-ancestor">
         <Card
           title="Foundations Blog"
